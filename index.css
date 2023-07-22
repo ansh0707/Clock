@@ -1,0 +1,50 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(images.png) no-repeat;
+    background-size: 100%;
+
+}
+#hourHand,#minuteHand,#secondHand,#hole{
+    position: absolute;
+    border-radius: 10px;
+    background: black;
+    transform-origin: bottom;
+
+}
+#hole{
+    position: absolute;
+    border-radius: 50px;
+    background:black;
+    height: 5%;
+    width: 5%;
+    left: 50%;
+    top: 49.5%;
+    opacity: 0.8;
+}
+#hourHand{
+    height: 24%;
+    width: 3%;
+    top: 27%;
+    left: 50%;
+    opacity: 0.8;
+    
+}
+#minuteHand{
+    height: 27%;
+    width: 2%;
+    top: 24%;
+    left: 50%;
+    opacity: 0.8;
+    
+}
+#secondHand{
+    height: 32%;
+    width: 1%;
+    top: 19%;
+    left: 50%;
+    opacity: 0.8;
+    
+}
